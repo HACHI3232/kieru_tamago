@@ -1,0 +1,18 @@
+#task {
+  position: absolute;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out; 
+}
+
+#egg {
+
+  transition: transform 0.3s ease; /* 卵のアニメーション */
+}
+
+.moveToEgg {
+  transform: translate(100px, 100px) scale(0);
+  opacity: 0;
+}
+
+.bounce {
+  transform: scale(1.1); /* 卵が少し大きくなる */
+}
